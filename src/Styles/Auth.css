@@ -1,0 +1,26 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 500px;
+}
+
+.sign-in-with-google-button {
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgba(195, 195, 195, 0.932);
+}

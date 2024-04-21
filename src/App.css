@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  cursor: pointer;
+}
+
+.room-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.room {
+  display: block;
+  position: absolute;
+  padding: 50px;
+  background-color: #282c34;
+  border-radius: 8px;
+}
+
+.room-input {
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+}
+
+.room-label {
+  position: relative;
+  left: 25px;
+}
+
+.Enter-button {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  border: none;
+  width: 90px;
+}
+
+.sign-out {
+  display: flex;
+  justify-content: center;
+}
